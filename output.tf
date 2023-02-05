@@ -24,7 +24,7 @@ output "load_balancer_zone_id" {
   value = aws_lb.project-lb.zone_id
 }
 
-# Saving the ip values on a local host-inventory file
+# Saving the ip address of the instances on a local host-inventory file
 resource "local_file" "host-inventory" {
   filename = var.filename
   content  = <<EOT
