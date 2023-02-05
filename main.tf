@@ -84,7 +84,7 @@ resource "aws_lb_target_group" "project-tg" {
   }
 }
 
-
+#Create the lb listener
 resource "aws_lb_listener" "project-listener" {
   load_balancer_arn = aws_lb.project-lb.arn
   port              = "80"
