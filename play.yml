@@ -13,7 +13,7 @@
         - apache2
       state: latest
 
-  - name: Set timezone to lagos
+  - name: Set the timezone to lagos
     timezone: name=Africa/Lagos
 
   - name: Print hostname on servers
