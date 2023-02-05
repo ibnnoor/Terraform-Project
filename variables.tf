@@ -34,3 +34,4 @@ variable "hosted_zone_id" {
   default = "Z0423587BTKJPZFYX0RX"
   description = "Hosted zone id"
 }
+
